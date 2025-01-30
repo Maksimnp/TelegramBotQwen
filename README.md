@@ -22,8 +22,7 @@ Before you begin, ensure you have met the following requirements:
 ## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/telegram-bot.git
+   git clone https://github.com/maksimnp/telegram-bot.git
    cd telegram-bot
 
 2. Install the required dependencies:
