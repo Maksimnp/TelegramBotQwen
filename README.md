@@ -25,7 +25,6 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    git clone https://github.com/yourusername/telegram-bot.git
    cd telegram-bot
-   Install the required dependencies:
 
 2. Install the required dependencies:
     pip install -r requirements.txt
