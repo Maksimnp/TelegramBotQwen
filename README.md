@@ -27,7 +27,8 @@ Before you begin, ensure you have met the following requirements:
 
 2. Install the required dependencies:
     pip install -r requirements.txt
-3. Create a .env file in the root directory of the project with the following content:
+   
+4. Create a .env file in the root directory of the project with the following content:
    TELEGRAM_BOT_TOKEN=your_telegram_bot_token
    QWEN_APP_ID=your_qwen_app_id
    QWEN_API_KEY=your_qwen_api_key
@@ -36,15 +37,19 @@ Before you begin, ensure you have met the following requirements:
    POSTGRES_HOST=your_postgres_host
    POSTGRES_PORT=your_postgres_port
    POSTGRES_DB=your_postgres_db
-4. Set up the database schema:
+   
+5. Set up the database schema:
 CREATE TABLE user_context (
     chat_id BIGINT PRIMARY KEY,
     context JSONB NOT NULL
 );
+
 ## Usage
 1. Start the bot:
 python main.py
-2. Interact with the bot via Telegram by sending text messages.
+
+3. Interact with the bot via Telegram by sending text messages.
+
 ## Commands
   /start: Start the conversation with the bot.
   /clearhistory: Clear the chat history stored in the database.
